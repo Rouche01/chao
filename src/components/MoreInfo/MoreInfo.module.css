@@ -1,0 +1,17 @@
+.MoreInfo {
+    /* margin-top: 0px; */
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
+}
+
+.MoreInfo h2 {
+    font-weight: bold;
+}
+
+.MoreInfo p {
+    width: 80%;
+    margin: 0 auto;
+}

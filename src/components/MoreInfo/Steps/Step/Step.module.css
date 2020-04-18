@@ -1,0 +1,13 @@
+.Step img {
+    width: 220px;
+}
+
+.Step h4 {
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.Step p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}

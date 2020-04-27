@@ -1,6 +1,6 @@
 .Hero {
     text-align: center;
-    height: 500px;
+    height: calc(100vh - 80px);
     padding-top: 80px;
     margin: 0 auto;
     position: relative;

@@ -1,7 +1,7 @@
 .Accordion {
     width: 90%;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .Card {
@@ -12,10 +12,21 @@
 .Question {
     font-weight: bold;
     font-size: 1.1rem;
-    padding-left: 30px;
+    padding-left: 10px;
+    line-height: 1.2rem;
 }
 
-.IconContainer {
+.Question::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: '\f138';
+    color: rgba(127, 157, 25, 0.9);
+    margin-right: 10px;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+/* .IconContainer {
     display: flex;
     margin-right: 40px;
     background-color: rgb(127, 157, 25);
@@ -26,4 +37,43 @@
 
 .Icon {
     color: rgba(0, 0, 0, 0.6);
+} */
+
+.ToggleClass {
+    background-color: rgba(127, 157, 25, 0.9);
+    color: #fff;
+}
+.ToggleClass::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: '\f13a';
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width: 500px) {
+    .Accordion {
+        padding-top: 30px;
+    }
+
+    .Question::before {
+        margin-right: 30px;
+        font-size: 1.2rem;
+    }
+
+    .Question {
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding-left: 30px;
+    }
+
+    .ToggleClass::before {
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: '\f13a';
+        color: #fff;
+        margin-right: 20px;
+    }
+    
 }

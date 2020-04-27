@@ -1,6 +1,7 @@
 import React from 'react';
 import Wrapper from '../../hoc/Wrapper';
 import Header from '../Layout/Header/Header';
+import Footer from './Footer/Footer';
 
 const Layout = (props) => (
     <Wrapper>
@@ -8,7 +9,7 @@ const Layout = (props) => (
             <main>
                 {props.children}
             </main>
-        {/* <div>Footer</div> */}
+        <Footer />
     </Wrapper>
 );
 

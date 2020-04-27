@@ -13,17 +13,17 @@ const Steps = (prop) => (
             <Row>
                 <Col>
                     <Step title="Chat with us" source={callIcon}>
-                        We are a cutting edge retail technology company that provides
+                    Click on the "Start Shopping" button to send us a list of your orders via whatsapp and we will send you a quote instantly.
                     </Step>
                 </Col>
                 <Col>
                     <Step title="We Shop & Deliver" source={deliveryIcon}>
-                        We are a cutting edge retail technology company that provides
+                    An experienced shopper will do the shopping for perfect product picks and deliver it to you quickly and fresh.
                     </Step>
                 </Col>
                 <Col>
                     <Step title="You Make Payment" source={paymentIcon}>
-                        We are a cutting edge retail technology company that provides
+                    On delivery you make your payment via transfer, your debit card or our other payment channels.
                     </Step>
                 </Col>
             </Row>

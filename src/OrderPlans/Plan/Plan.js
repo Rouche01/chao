@@ -15,8 +15,8 @@ const Plan = (props) => {
     };
 
     return (
-        <div className={styles.Plan} style={cardImage}>
-            <div className={styles.PlanOverlay} style={cardOverlay}>
+        <div className={['mb-3', styles.Plan].join(' ')} style={cardImage}>
+            <div className={[styles.PlanOverlay]} style={cardOverlay}>
                 <div className={styles.InnerContent}>
                     <h4>{props.title}</h4>
                     <p>{props.children}</p>

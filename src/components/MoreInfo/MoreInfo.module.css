@@ -2,16 +2,27 @@
     /* margin-top: 0px; */
     background-color: #f4f4f4;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 30px;
     
 }
 
 .MoreInfo h2 {
     font-weight: bold;
+    font-size: 1.75rem;
 }
 
 .MoreInfo p {
-    width: 80%;
+    text-align: center;
     margin: 0 auto;
+}
+
+/* .MoreInfo h3 {
+    text-align: left;
+} */
+
+@media screen and (min-width: 500px) {
+    .MoreInfo h2 {
+        font-size: 2rem;
+    }
 }
